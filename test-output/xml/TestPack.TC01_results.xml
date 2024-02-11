@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homepage"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.472">
+    <properties></properties>
+
+
+
+            <testcase
+                name="doDevlabsHoverMenuValid"
+                time="8.276"
+                classname="TestPack.TC01">
+            </testcase>
+            <testcase
+                name="doDevlabsfooterValid"
+                time="8.196"
+                classname="TestPack.TC01">
+            </testcase>
+</testsuite>

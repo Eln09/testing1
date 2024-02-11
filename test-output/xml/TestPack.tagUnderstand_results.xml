@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression1"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.012">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tc09"
+                time="0.002"
+                classname="TestPack.tagUnderstand">
+            </testcase>
+            <testcase
+                name="tc10"
+                time="0.009"
+                classname="TestPack.tagUnderstand">
+            </testcase>
+            <testcase
+                name="tc08"
+                time="0.001"
+                classname="TestPack.tagUnderstand">
+            </testcase>
+</testsuite>

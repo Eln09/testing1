@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SwagLabs" verbose="1" >
+    <parameter name="url" value="https://www.saucedemo.com/"></parameter>
+    <test name="Saucedemo"   >
+        <classes>
+            <class name="TextPack02.SwagLabs" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="end2end" verbose="1" >
+    <parameter name="url" value="https://www.docker.com/get-started/"></parameter>
+    <test name="DockerHome"   >
+        <classes>
+            <class name="TestPack.DockerLog" />
+        </classes>
+    </test>
+</suite>

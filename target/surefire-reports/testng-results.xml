@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-01T19:13:18 CST" name="SwagLabs" finished-at="2024-02-01T19:13:37 CST" duration-ms="18160">
+    <groups>
+    </groups>
+    <test started-at="2024-02-01T19:13:18 CST" name="Saucedemo" finished-at="2024-02-01T19:13:37 CST" duration-ms="18160">
+      <class name="TextPack02.SwagLabs">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TextPack02.SwagLabs@647e447]" started-at="2024-02-01T19:13:19 CST" name="launchBrowser" finished-at="2024-02-01T19:13:22 CST" duration-ms="3193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="saucepage()[pri:0, instance:TextPack02.SwagLabs@647e447]" started-at="2024-02-01T19:13:22 CST" name="saucepage" finished-at="2024-02-01T19:13:36 CST" duration-ms="14652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saucepage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TextPack02.SwagLabs@647e447]" started-at="2024-02-01T19:13:36 CST" name="closeBrowser" finished-at="2024-02-01T19:13:37 CST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TextPack02.SwagLabs -->
+    </test> <!-- Saucedemo -->
+  </suite> <!-- SwagLabs -->
+</testng-results>
