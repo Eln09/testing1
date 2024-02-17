@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.010">
+           time="0.004">
     <properties></properties>
 
 
 
             <testcase
-                name="tc10"
-                time="0.001"
+                name="tc08"
+                time="0.004"
                 classname="TestPack.tagEnd2End">
             </testcase>
             <testcase
-                name="tc08"
-                time="0.009"
+                name="tc10"
+                time="0.000"
                 classname="TestPack.tagEnd2End">
             </testcase>
 </testsuite>

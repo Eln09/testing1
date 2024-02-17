@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="16.472">
+           time="16.435">
     <properties></properties>
 
 
 
             <testcase
-                name="doDevlabsHoverMenuValid"
-                time="8.276"
+                name="doDevlabsfooterValid"
+                time="8.175"
                 classname="TestPack.TC01">
             </testcase>
             <testcase
-                name="doDevlabsfooterValid"
-                time="8.196"
+                name="doDevlabsHoverMenuValid"
+                time="8.260"
                 classname="TestPack.TC01">
             </testcase>
 </testsuite>

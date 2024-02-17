@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="DockerHome"
-           tests="3"
+           tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="13.436">
+           time="0.029">
     <properties></properties>
 
 
 
             <testcase
-                name="getStarted"
-                time="6.461"
-                classname="TestPack.DockerLog">
-            </testcase>
-            <testcase
                 name="homepage"
-                time="0.068"
-                classname="TestPack.DockerLog">
-            </testcase>
-            <testcase
-                name="signIn"
-                time="6.907"
+                time="0.029"
                 classname="TestPack.DockerLog">
             </testcase>
 </testsuite>

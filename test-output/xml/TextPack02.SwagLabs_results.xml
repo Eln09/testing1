@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="13.717">
+           time="13.832">
     <properties></properties>
 
 
 
             <testcase
                 name="saucepage"
-                time="13.717"
+                time="13.832"
                 classname="TextPack02.SwagLabs">
             </testcase>
 </testsuite>
