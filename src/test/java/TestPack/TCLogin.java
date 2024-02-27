@@ -27,15 +27,52 @@ public class TCLogin {
     }
 
     @Test
-    public void doDevlabsHoverMenuValid() throws Exception{
+    @Test
+    public void check_for_mouse_hover() throws Exception {
         WebElement ele = null;
-        Actions action = new Actions(driver);
-        ele = driver.findElement(By.xpath("//button[text()='Log in']"));
+        Actions action = new Actions(this.driver);
+        ele = this.driver.findElement(By.xpath("//span[text()='Courses']"));
         if (ele.isDisplayed()) {
-            System.out.println("The DevLabs login button is present");
-            ele.click();
-            Thread.sleep(3000);
+            System.out.println("The DevLab Courses Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
         }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Consulting']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Consulting Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Enterprises']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Enterprises Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Enterprises']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Enterprises Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Certification']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Certification Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Resources']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Resources Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
     }
 
 }
