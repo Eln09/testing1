@@ -32,6 +32,53 @@ public class DockerLog {
                System.out.println("logo founded!");
            }
     }
+    @Test
+    public void check_for_mouse_hover() throws Exception {
+        WebElement ele = null;
+        Actions action = new Actions(this.driver);
+        ele = this.driver.findElement(By.xpath("//span[text()='Courses']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Courses Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Consulting']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Consulting Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Enterprises']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Enterprises Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Enterprises']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Enterprises Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Certification']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Certification Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+        ele = this.driver.findElement(By.xpath("//button[text()='Resources']"));
+        if (ele.isDisplayed()) {
+            System.out.println("The DevLab Resources Menu Bar is present ......");
+            action.moveToElement(ele).perform();
+            Thread.sleep(3000L);
+        }
+
+    }
    /* @Test(priority = 3)
     public void getStarted() throws Exception{
         //go back to main page of Docker
